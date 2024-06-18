@@ -1,0 +1,78 @@
+[2024-06-17 19:17:04] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 19:17:04] [ INFO ] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domiclioGuardado" is null
+] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domiclioGuardado" is null
+[2024-06-17 19:20:21] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 19:20:21] [ INFO ] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+[2024-06-17 19:40:41] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 19:40:41] [ INFO ] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+[2024-06-17 20:02:24] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 20:02:24] [ INFO ] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+[2024-06-17 20:04:09] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 20:04:09] [ INFO ] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioPersistido" is null
+] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioPersistido" is null
+[2024-06-17 20:50:42] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 20:50:42] [ INFO ] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioPersistido" is null
+] [PacienteDaoH2:54] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioPersistido" is null
+[2024-06-17 20:52:40] [ INFO ] [DomicilioDaoH2:36] Domicilio persistido: null
+] [DomicilioDaoH2:36] Domicilio persistido: null
+[2024-06-17 20:52:40] [ INFO ] [PacienteDaoH2:202] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+] [PacienteDaoH2:202] Cannot invoke "dh.backend.model.Domicilio.getId()" because "domicilioGuardado" is null
+[2024-06-17 20:54:35] [ INFO ] [DomicilioDaoH2:136] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [DomicilioDaoH2:136] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 20:54:35] [ INFO ] [PacienteDaoH2:189] paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteDaoH2:189] paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 20:55:17] [ INFO ] [DomicilioDaoH2:136] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [DomicilioDaoH2:136] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 20:55:17] [ INFO ] [PacienteDaoH2:42] Paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteDaoH2:42] Paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 20:58:04] [ INFO ] [DomicilioDaoH2:33] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [DomicilioDaoH2:33] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 20:58:04] [ INFO ] [PacienteDaoH2:42] Paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteDaoH2:42] Paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:07:08] [ INFO ] [DomicilioDaoH2:33] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [DomicilioDaoH2:33] Domicilio persistido: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:07:08] [ INFO ] [PacienteDaoH2:42] Paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteDaoH2:42] Paciente guardado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:07:08] [ INFO ] [DomicilioDaoH2:78] Domicilio encontrado: Domicilio: id=1, calle='SIEMPRE VIVA', numero=123, localidad='SAN PEDRO', provincia='JUJUY
+] [DomicilioDaoH2:78] Domicilio encontrado: Domicilio: id=1, calle='SIEMPRE VIVA', numero=123, localidad='SAN PEDRO', provincia='JUJUY
+[2024-06-17 21:07:08] [ INFO ] [PacienteDaoH2:123] Paciente listado: Paciente: id=1, apellido='COSME', nombre='FULANITO', dni='1545646', fechaIngreso=2024-02-15, domicilio=Domicilio: id=1, calle='SIEMPRE VIVA', numero=123, localidad='SAN PEDRO', provincia='JUJUY
+] [PacienteDaoH2:123] Paciente listado: Paciente: id=1, apellido='COSME', nombre='FULANITO', dni='1545646', fechaIngreso=2024-02-15, domicilio=Domicilio: id=1, calle='SIEMPRE VIVA', numero=123, localidad='SAN PEDRO', provincia='JUJUY
+[2024-06-17 21:07:08] [ INFO ] [DomicilioDaoH2:78] Domicilio encontrado: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [DomicilioDaoH2:78] Domicilio encontrado: Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:07:08] [ INFO ] [PacienteDaoH2:123] Paciente listado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteDaoH2:123] Paciente listado: Paciente: id=2, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=2, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:19:31] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:21:28] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:21:28] [ INFO ] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:21:28] [ INFO ] [PacienteEnMemoria:30] Paciente no encontrado
+] [PacienteEnMemoria:30] Paciente no encontrado
+[2024-06-17 21:21:34] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:21:34] [ INFO ] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:21:34] [ INFO ] [PacienteEnMemoria:30] Paciente no encontrado
+] [PacienteEnMemoria:30] Paciente no encontrado
+[2024-06-17 21:22:15] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:22:15] [ INFO ] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:22:15] [ INFO ] [PacienteEnMemoria:30] Paciente no encontrado
+] [PacienteEnMemoria:30] Paciente no encontrado
+[2024-06-17 21:23:44] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:23:44] [ INFO ] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:27] Paciente encontrado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+[2024-06-17 21:24:02] [ INFO ] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana
+] [PacienteEnMemoria:19] Paciente guardado: Paciente: id=1, apellido='Juan', nombre='Ramirez', dni='70790074', fechaIngreso=2024-02-09, domicilio=Domicilio: id=null, calle='Calle Falsa', numero=456, localidad='Springfield', provincia='Montana

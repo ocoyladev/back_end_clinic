@@ -5,15 +5,13 @@ import dh.backend.db.H2Connection;
 import dh.backend.model.Domicilio;
 import org.apache.log4j.Logger;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.List;
 
 public class DomicilioDaoH2 implements IDao<Domicilio> {
     private static Logger LOGGER = Logger.getLogger(DomicilioDaoH2.class);
     private static String SQL_INSERT = "INSERT INTO DOMICILIOS VALUES (DEFAULT,?,?,?,?)";
+    private static String SQL_SELECT_ID = "SELECT * FROM DOMICILIOS WHERE ID = ?";
     @Override
     public Domicilio registrar(Domicilio domicilio) {
         Connection connection = null;
@@ -21,7 +19,7 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
         try{
             connection = H2Connection.getConnection();
             connection.setAutoCommit(false);
-            PreparedStatement preparedStatement = connection.prepareStatement(SQL_INSERT);
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL_INSERT,Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, domicilio.getCalle());
             preparedStatement.setInt(2,domicilio.getNumero());
             preparedStatement.setString(3, domicilio.getLocalidad());
@@ -32,7 +30,7 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
                 Integer id = resultSet.getInt(1);
                 domicilioARetornar = new Domicilio(id, domicilio.getCalle(),domicilio.getNumero(),domicilio.getLocalidad(),domicilio.getProvincia());
             }
-            LOGGER.info("Paciente persistido: "+ domicilioARetornar);
+            LOGGER.info("Domicilio persistido: "+ domicilioARetornar);
 
             connection.commit();
             connection.setAutoCommit(true);
@@ -61,7 +59,36 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
 
     @Override
     public Domicilio buscarPorId(Integer id) {
-        return null;
+        Connection connection = null;
+        Domicilio domicilioEncontrado = null;
+
+        try{
+            connection = H2Connection.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(SQL_SELECT_ID);
+            preparedStatement.setInt(1,id);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()){
+                Integer idEncontrado = resultSet.getInt(1);
+                String calle = resultSet.getString(2);
+                int numero = resultSet.getInt(3);
+                String localidad = resultSet.getString(4);
+                String provincia = resultSet.getString(5);
+                domicilioEncontrado = new Domicilio(idEncontrado,calle,numero,localidad,provincia);
+            }
+            LOGGER.info("Domicilio encontrado: " + domicilioEncontrado);
+
+        }catch (Exception e){
+            LOGGER.info(e.getMessage());
+            e.printStackTrace();
+        }finally {
+            try {
+                connection.close();
+            } catch (SQLException e){
+                LOGGER.info(e.getMessage());
+                e.printStackTrace();
+                }
+            }
+        return domicilioEncontrado;
     }
 
     @Override
@@ -69,3 +96,4 @@ public class DomicilioDaoH2 implements IDao<Domicilio> {
         return null;
     }
 }
+
